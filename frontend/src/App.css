@@ -7,9 +7,10 @@
 html {
   font-family: 'Times New Roman';
   text-align: center;
-  background-color: black;
+  background-color: rgb(45, 45, 40);
   color: white;
   font-weight: 50;
+  padding-bottom: 50px;
 
 }
 
@@ -71,6 +72,7 @@ h2.services-message {
 h5{
   font-family: Arial;
   font-weight: 100;
+  padding-bottom: 50px;
 }
 
 h5.heading{
@@ -105,7 +107,19 @@ h1.story-headline {
   padding-top: 90px;
   text-align: center;
   font-family: 'Franklin Gothic Medium';
+}
 
+h1.opening {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium';
+  font-weight: 250;
+  padding-right: 60px;
+  padding-left: 35px;
+  margin-top: 30px;
+  margin-right: -10px;
+  font-size: 22px;
+  
+  
 }
 
 h1.our-story{
@@ -122,12 +136,39 @@ h1.contact {
 div.excerpt {
     padding-top: 90px;
 }
-div.next-section {
+div.next-section1 {
   display: inline-flex;
   background-color: rgb(45, 45, 40);
   color: white;
   grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 70px;
   
+}
+div.next-section {
+  display: inline-flex;
+  background-color: black;
+  color: white;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+div.next-section2 {
+  display: inline-flex;
+  background-color: black;
+  color: white;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 120px;
+  padding-top: 120px;
+  padding-left: 280px;
+  
+
+}
+div.opening-hours {
+  margin-top: 150px;
+  display: block;
+  font-size: 10px;
+  padding-right: 30px;
+
 }
 div.field {
   text-align: left;
@@ -151,8 +192,8 @@ div.contact {
 }
 
 div#spacing1{
-  padding-right: 170px;
-  padding-left: 170px;
+  padding-right: 119px;
+  padding-left: 119px;
   padding-top: 105px;
   margin-top: 20px;
 }
@@ -195,6 +236,19 @@ padding-bottom: 10px;
 
 input {
   border-radius: 6px;
+}
+
+img#services1 {
+  padding-right: 15px;
+}
+
+img#services2 {
+  padding-left: 15px;
+}
+
+img#opening {
+  margin-left: 273px;
+  
 }
 
 textarea {

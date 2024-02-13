@@ -30,7 +30,7 @@ function App() {
 <h2 className= 'get-in-touch'>Get in Touch</h2>
 
   <div className= 'next-section'>
-    <img src = "shaving.png" width="950" height = "700" alt=""></img>
+    <img src = "shaving.png" width="870" height = "700" alt=""></img>
     <h1 className='story-headline'>More About Kareem Capital Management Inc.
     <h1 className='our-story'> Our Story</h1>
    
@@ -39,10 +39,26 @@ function App() {
     </h1>
     </h1>
   </div>
-  <h1 className='services'>Services</h1>
+
   
+  <h1 className='services'>Services</h1>
 <h2 className='services-message'><div className='services-message'><p>No matter what your needs are, you can count on Kareem Capital Management Inc. for the support you deserve. We see each</p> <p>customer as unique, which is why all of our services can be completely personalized to fit specific needs and preferences. </p> <p>Browse through our comprehensive range of services below to learn more about what we can do for you.</p></div></h2>
 
+<div className='next-section1'>
+  <img id= 'services1' src = 'delivery.png' width='870' height= '600' alt=''></img>
+  <img id= 'services2' src = 'shopping.png' width='870' height ='600' alt=''></img>
+  </div>
+
+<div className='next-section2'>
+  <div className= 'opening-hours'>
+<h1 className= 'opening'>Opening Hours</h1>
+<h1 className= 'opening'>Come Visit</h1>
+<h1 className= 'opening'>Mon - Fri : 9am - 6pm</h1>
+<h1 className= 'opening'>Sat : 10am - 2pm</h1>
+<h1 className= 'opening'>Sun : Closed</h1>
+</div>
+<img id= 'opening' src = 'opening.png' alt='' height='600' width='860'></img>
+</div>
 
 
 <div className= 'contact'>
@@ -50,7 +66,7 @@ function App() {
 <Forms />
 </div>
 <div id ='spacing'>
-<img src = 'sweets.png' alt="" height="700" width='770' ></img>
+<img src = 'sweets.png' alt="" height="700" width='870' ></img>
 </div>
 </div>
 <h5>© 2021 by Kareem Capital Management Inc.,</h5>
