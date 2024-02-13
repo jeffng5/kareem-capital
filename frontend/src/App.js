@@ -19,7 +19,12 @@ function App() {
 <p>Contact</p>
   </h5>
 
+
+<div className='fixed-bg' style={{height:"600", backgroundColor:"black"}}></div>
+
+
   <h1 className='subheader'>Kareem Capital Management Inc.</h1>
+
     <h1 className='subheader'>Welcomes You</h1>
 <h1 className='subtitle'>Doing Business the Right Way</h1>
 
@@ -69,7 +74,9 @@ function App() {
 <img src = 'sweets.png' alt="" height="700" width='870' ></img>
 </div>
 </div>
+
 <h5>© 2021 by Kareem Capital Management Inc.,</h5>
+  
   </html>
   );
 

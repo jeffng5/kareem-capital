@@ -4,6 +4,16 @@
   color: white;
 }
 
+.fixed-bg {
+  background-image: url("https://robcubbon.com/wp-content/uploads/2011/02/businessmen-shaking-hands1.jpg");
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  
+}
+
 html {
   font-family: 'Times New Roman';
   text-align: center;
@@ -23,6 +33,7 @@ h1 {
 }
 
 h1.subheader {
+  padding-top: 30px;
   font-family: 'Franklin Gothic Medium';
   font-size: 50px;
   padding-bottom: 15px;
@@ -61,7 +72,7 @@ h2{
 }
 
 h2.get-in-touch {
-  padding: 10px;
+  padding-bottom: 50px;
   font-size: 30px;
 }
 
@@ -113,11 +124,11 @@ h1.opening {
   text-align: center;
   font-family: 'Franklin Gothic Medium';
   font-weight: 250;
-  padding-right: 60px;
-  padding-left: 35px;
+  padding-right: 10px;
+  padding-left: 79px;
   margin-top: 30px;
   margin-right: -10px;
-  font-size: 22px;
+  font-size: 19px;
   
   
 }
@@ -164,12 +175,13 @@ div.next-section2 {
 
 }
 div.opening-hours {
+  text-align: center;
   margin-top: 150px;
   display: block;
-  font-size: 10px;
-  padding-right: 30px;
-
+  font-size: 5px;
+  margin-left: 10px;
 }
+
 div.field {
   text-align: left;
   padding: 20px;
@@ -247,7 +259,8 @@ img#services2 {
 }
 
 img#opening {
-  margin-left: 273px;
+  padding-left: 10px;
+  margin-left: 320px;
   
 }
 
